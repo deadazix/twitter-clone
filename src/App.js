@@ -1,10 +1,12 @@
-import './styles/animation.css'
-import './styles/base.css'
-import './styles/typography.css'
+import "./styles/animation.css";
+import "./styles/base.css";
+import "./styles/typography.css";
+import Login from "./pages/Login";
+import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div>
-      <h1>this is test</h1>
+      <Route path="/" component={Login} />
     </div>
   );
 }

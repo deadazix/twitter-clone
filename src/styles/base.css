@@ -1,12 +1,20 @@
-*,*::after,*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-    --primary1:red;
-    --gray1:#333;
+:root {
+  --primary1: #1da1f2;
+  --gray1: #14171a;
+  --gray2: #657786;
+  --gray3: #aab8c2;
+  --gray4: #e1e8ed;
+  --gray5: #f5f8fa;
+
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
+  background-color: bisque;
 }

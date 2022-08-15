@@ -1,0 +1,28 @@
+.loginside{
+    background-color: var(--gray5);
+    padding: 1.6rem;
+
+    background-color: blue;
+   
+    
+}
+.container{
+    background-color: yellow;
+    max-width: 80rem;
+    margin-left: auto;
+}
+.loginside__container{
+    max-width: 60rem;
+    
+    background-color: red;
+    padding: 2rem 2rem;
+}
+.heading-primary{
+    color: var(--gray1);
+    font-family: 'Oswald';
+    font-weight: 600;
+    overflow-wrap: break-word;
+    font-size: 7.2rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}

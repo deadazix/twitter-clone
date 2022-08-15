@@ -1,5 +1,9 @@
+/* font size 
+6.4
+*/
 body{
     color: var(--gray1);
     font-weight: 400;
-    font-family: 'roboto' ,sans-serif;
+    font-family: var(--font);
+    font-size: 1.6rem;
 }
