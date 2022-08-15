@@ -1,0 +1,30 @@
+.backdrop{
+    background-color: rgba(0, 0, 0, 0.389);
+    z-index: 15;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gray5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding: 2rem;
+}
+@media (min-width:43.75rem){
+    .content{
+        width: 60rem;
+        top: 50%;
+        left: 50%;
+        max-height: 90vh;
+        transform: translate(-50%,-50%);
+        border-radius: 2rem;
+    }
+}

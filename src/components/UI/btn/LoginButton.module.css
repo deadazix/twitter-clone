@@ -1,0 +1,13 @@
+.login-button:link,.login-button:focus,.login-button:visited,.login-button:active{
+ 
+    display: inline-block;
+    width: 100%;
+    padding:1.2rem;
+    border-radius: 10rem;
+ 
+    cursor: pointer;
+    
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+}

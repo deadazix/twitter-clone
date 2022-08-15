@@ -3,3 +3,9 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+
+@media (min-width:75rem){
+    .login{
+        grid-template-columns: 1fr auto;
+    }
+}

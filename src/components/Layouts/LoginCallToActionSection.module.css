@@ -1,0 +1,75 @@
+.sign-in__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.sign-in__header {
+  font-size: 2.4rem;
+}
+
+.sign-in {
+  color: var(--primary1);
+  border: 1px solid var(--gray3);
+  font-size: 2.4rem;
+  text-align: center;
+  background-color: var(--gray5);
+  font-weight: 700;
+  transition: 0.3s;
+}
+.sign-in:hover {
+  background-color: var(--gray4);
+}
+.sign-up__container {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3.6rem;
+}
+.google {
+  border: 1px solid var(--gray3);
+  text-align: center;
+  color: black;
+}
+.apple {
+  border: 1px solid var(--gray3);
+  text-align: center;
+  color: inherit;
+}
+.apple:hover{
+    background-color: var(--gray4);
+    filter: grayscale(90%);
+}
+.seprate {
+  text-align: center;
+  position: relative;
+}
+.seprate::before {
+  content: "";
+  width: 100%;
+  background-color: var(--gray4);
+  display: block;
+  position: absolute;
+  top: 50%;
+
+  height: 2px;
+  z-index: 5;
+}
+.seprate::after {
+  content: "or";
+  z-index: 10;
+  width: 100%;
+font-size: 1.8rem;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sign-up {
+  background-color: var(--primary1);
+  color: var(--gray5);
+  text-align: center;
+}
+.sign-up:hover{
+    filter: brightness(93%);
+}

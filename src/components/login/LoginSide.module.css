@@ -1,28 +1,46 @@
-.loginside{
-    background-color: var(--gray5);
-    padding: 1.6rem;
+.loginside {
+  background-color: var(--gray5);
+  padding: 1.6rem;
+}
+.container {
+  max-width: 80rem;
+  margin-left: auto;
+}
+.loginside__container {
+  max-width: 50rem;
 
-    background-color: blue;
+  padding: 2rem 4rem;
+}
+.blue-logo{
+    fill:var(--primary1);
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 6rem;
+}
+.heading-primary {
+  color: var(--gray1);
+  font-family: "Open Sans";
+  font-weight: 700;
+  overflow-wrap: break-word;
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-bottom: 6rem;
+}
+
+@media (min-width:38rem){
+    .heading-primary{
+
+        font-size: 6.4rem;
+    }
+    .heading-secondary{
+      
+        font-size: 4.4rem;
+    }
    
-    
+
 }
-.container{
-    background-color: yellow;
-    max-width: 80rem;
-    margin-left: auto;
-}
-.loginside__container{
-    max-width: 60rem;
-    
-    background-color: red;
-    padding: 2rem 2rem;
-}
-.heading-primary{
-    color: var(--gray1);
-    font-family: 'Oswald';
-    font-weight: 600;
-    overflow-wrap: break-word;
-    font-size: 7.2rem;
-    line-height: 1.2;
-    margin-bottom: 4rem;
+@media (min-width:75rem){
+    .loginside{
+        width: 70rem;
+    }
 }
