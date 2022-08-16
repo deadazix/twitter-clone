@@ -18,7 +18,7 @@ const Signup = () => {
       console.log(data)
       console.log(createAcountContext.prefered)
       // here should check the validation of inputs in backend 
-      history.push('/explore')
+      history.push('/home')
       
     }
    
