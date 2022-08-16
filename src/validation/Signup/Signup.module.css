@@ -1,0 +1,23 @@
+.container {
+  height: 100%;
+}
+.submit-container {
+  position: absolute;
+  left: 50%;
+  bottom: 5rem;
+  transform: translateX(-50%);
+}
+.submit {
+  background-color: var(--gray3);
+  font-size: 2.4rem;
+  font-weight: 500;
+  border: none;
+  color: var(--gray5);
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+.submit.active {
+
+    background-color: var(--gray1);
+  cursor: pointer;
+}

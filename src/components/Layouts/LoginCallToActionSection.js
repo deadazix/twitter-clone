@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./LoginCallToActionSection.module.css";
 import LoginButton from "../UI/btn/LoginButton";
 const LoginCallToActionSection = () => {
-    console.log('run again')
+
   return (
     <React.Fragment>
       <div className={classes["sign-up__container"]}>

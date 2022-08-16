@@ -1,0 +1,64 @@
+.input{
+    width: 100%;
+    outline: none;
+    font-size: 2rem;
+    position: relative;
+    padding: 0 1.5rem;
+    border: none;
+    color: var(gray3);
+   margin-top: 3rem;
+    
+    border-radius: 1rem;
+    background-color: var(--gray5);
+}
+.input-container p{
+    color: red;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+.wrapper{
+    position: relative;
+    margin-bottom: 1rem;
+    height: 7rem;
+    border: 1px solid var(--gray3);
+    border-radius: .5rem;
+    
+   
+}
+.wrapper.hasvalue::after{
+    color: var(--primary1) !important;
+    font-size: 1.6rem;
+    top: 1rem;
+    transform: translateY(0);
+}
+.focus.wrapper::after{
+    color: var(--primary1);
+    font-size: 1.6rem;
+    top: 1rem;
+    transform: translateY(0);
+}
+.wrapper.focus{
+    border: 2px solid var(--primary1);
+}
+
+.wrapper::after{
+    content: attr(data);
+    font-size: 2.4rem;
+    color:var(--gray2);
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 1.5rem;
+    transition: .3s;
+    
+}
+
+/* while invalid */
+.wrapper.invalid.hasvalue::after,.wrapper.invalid.focus::after{
+    color: red !important;
+}
+.wrapper.invalid{
+    border: 2px solid red;
+    margin-bottom: 0;
+}
+

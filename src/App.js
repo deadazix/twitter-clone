@@ -6,7 +6,9 @@ import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Route path="/" component={Login} exact />
+      <Switch>
+        <Route path="/" component={Login} exact />
+      </Switch>
     </div>
   );
 }
