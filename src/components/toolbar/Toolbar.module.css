@@ -1,0 +1,7 @@
+.toolbar{
+    border-right: 1px solid var(--gray4);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

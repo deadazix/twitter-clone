@@ -1,11 +1,15 @@
 import React from 'react'
-import Tool from './Tool'
-
+import Tools from './Tools'
+import classes from './Toolbar.module.css'
+import NewTwitTool from './NewTwitTool'
+import ProfileTool from './ProfileTool'
 const Toolbar = () => {
   return (
-    <div>
-        <Tool/>
-        <Tool/>
+    
+    <div className={classes.toolbar}>
+      <Tools/>
+      <NewTwitTool/>
+      <ProfileTool/>
     </div>
   )
 }
