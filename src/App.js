@@ -3,15 +3,13 @@ import "./styles/base.css";
 import "./styles/typography.css";
 import Login from "./pages/Login";
 import { Route, Switch } from "react-router-dom";
-import Explore from "./pages/Explore";
-import Home from "./pages/Home";
+import Application from "./pages/Application";
 function App() {
   return (
     <div>
       <Switch>
         <Route path="/" component={Login} exact />
-        <Route path='/home' component={Home}/>
-        <Route path="/explore" component={Explore}/>
+        <Route path='/application' component={Application}/>
       </Switch>
     </div>
   );
