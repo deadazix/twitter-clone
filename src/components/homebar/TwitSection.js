@@ -3,7 +3,8 @@ import classes from './TwitSection.module.css'
 import Twit from '../twit/Twit'
 const TwitSection = () => {
   return (
-    <div>
+    <div className={classes['twit-section']}>
+        <Twit/>
         <Twit/>
     </div>
   )

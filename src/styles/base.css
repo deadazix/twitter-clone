@@ -17,4 +17,11 @@
 html {
   font-size: 62.5%;
   background-color: var(--gray5);
+  overflow: hidden;
+}
+body{
+  overflow: hidden;
+}
+.test{
+  display: none;
 }

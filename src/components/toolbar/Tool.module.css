@@ -1,0 +1,11 @@
+.focus {
+    transform: scale(1.4);
+    transform-origin: center;
+}
+.icon{
+   
+    transition: .3s;
+    width: 4rem;
+    height: 4rem;
+
+}
