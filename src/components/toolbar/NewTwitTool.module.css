@@ -1,0 +1,14 @@
+.send{
+    fill: red;
+    stroke: white;
+    background-color: var(--primary1);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 4rem;
+}
+.send:hover{
+    filter: brightness(95%);
+}

@@ -7,6 +7,7 @@
 }
 :root {
   --primary1: #1da1f2;
+  --primary1-light:rgb(213, 244, 253);
   --gray1: #14171a;
   --gray2: #657786;
   --gray3: #aab8c2;

@@ -1,11 +1,20 @@
 .focus {
-    transform: scale(1.4);
-    transform-origin: center;
+   
+   stroke-width: 2;
+
 }
 .icon{
    
     transition: .3s;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
 
+}
+.icon:hover{
+    background-color: var(--gray4);
+    border-radius: 50%;
 }

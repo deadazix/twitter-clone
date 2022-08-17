@@ -7,15 +7,16 @@ import Translate from './Translate.js'
 import Actions from './Actions.js'
 import React from 'react'
 
-const Twit = () => {
+const Twit = (props) => {
+  const {twit} = props
   return (
     <div className={classes.twit}>
-        <ProfileImage/>
-        <ProfileData/>
-        <Options/>
-        <Content/>
-        <Translate/>
-        <Actions/>
+        <ProfileImage twit={twit}/>
+        <ProfileData twit={twit}/>
+        <Options twit={twit}/>
+        <Content twit={twit}/>
+        <Translate twit={twit}/>
+        <Actions twit={twit}/>
     </div>
   )
 }

@@ -4,4 +4,8 @@
     grid-template-columns: auto 1fr auto;
     border-bottom: 1px solid var(--gray4);
     padding: 2rem;
+    row-gap: 1rem;
+    column-gap: 1.6rem;
+    position: relative;
+    
 }

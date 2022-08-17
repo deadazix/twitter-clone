@@ -4,4 +4,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 10rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+   
+    
+}
+.blue-logo{
+
+    fill: var(--primary1);
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: .5rem;
+    
+    transition: .3s;
+    
+
+    
+}
+.blue-logo:hover{
+    background-color: var(--primary1-light);
+
 }

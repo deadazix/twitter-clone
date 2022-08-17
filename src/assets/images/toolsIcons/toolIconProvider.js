@@ -4,9 +4,9 @@ const home = cl=> (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className={cl}
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
-    height="30px" strokeWidth="2"
+    height="30px" strokeWidth="1"
     fill="none"
     stroke="black"
   >
@@ -22,11 +22,11 @@ const explore = cd=>(
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
     height="30px"
     fill="none"
-    stroke="black" strokeWidth="2"
+    stroke="black" strokeWidth="1"
   >
     {" "}
   <path
@@ -40,11 +40,11 @@ const notification = cd=>(
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
     height="30px"
     fill="none"
-    stroke="black" strokeWidth="2"
+    stroke="black" strokeWidth="1"
   >
     {" "}
   <path
@@ -58,11 +58,11 @@ const messages = cd=>(
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
     height="30px"
     fill="none"
-    stroke="black" strokeWidth="2"
+    stroke="black" strokeWidth="1"
   >
     {" "}
 
@@ -73,11 +73,11 @@ const bookmarks = cd=> (
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
     height="30px"
     fill="none"
-    stroke="black" strokeWidth="2"
+    stroke="black" strokeWidth="1"
   >
     {" "}
 
@@ -88,10 +88,10 @@ const lists=cd=> (
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
     height="30px"
-    fill="none" strokeWidth="2"
+    fill="none" strokeWidth="1"
     stroke="black"
   >
     {" "}
@@ -103,10 +103,10 @@ const profile =cd=> (
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 30 30"
+    viewBox="0 0 25 25"
     width="30px"
     height="30px"
-    fill="none" strokeWidth="2"
+    fill="none" strokeWidth="1"
     stroke="black"
   >
     {" "}
@@ -118,16 +118,48 @@ const more = cd=>(
   <svg
   className={cd}
     xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 25 25"
+    width="30px"
+    height="30px"
+    fill="none"
+    stroke="black"
+    strokeWidth="1"
+  >
+    {" "}
+
+  <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+)
+const options = cd=>(
+  <svg
+  className={cd}
+    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 30 30"
     width="30px"
     height="30px"
     fill="none"
     stroke="black"
-    strokeWidth="2"
+    strokeWidth="1"
   >
     {" "}
 
-  <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+  </svg>
+)
+const send = cd=>(
+  <svg
+  className={cd}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 25 25"
+    width="30px"
+    height="30px"
+    fill="none"
+    stroke="black"
+    strokeWidth="1.5"
+  >
+    {" "}
+
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
   </svg>
 )
 
@@ -143,6 +175,8 @@ const toolIconProvider = (props) => {
     lists,
     profile,
     more,
+    options,
+    send,
   };
   return icon[props.name](props.className);
 };

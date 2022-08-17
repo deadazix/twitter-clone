@@ -1,0 +1,15 @@
+.profile-data{
+    display: flex;
+    align-self: center;
+}
+.name{
+ font-weight: 700;
+ display: inline-block;
+ color: var(--gray1);
+ 
+}
+.username{
+    margin-left: 1rem;
+
+    color: var(--gray2);
+}
